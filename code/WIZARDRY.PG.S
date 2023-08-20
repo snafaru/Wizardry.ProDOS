@@ -1240,7 +1240,7 @@ patch_wizardry_utils1
          !byte $01        ; disk
          !byte $21        ; track
          !byte $0E        ; sector
-         !byte $85        ; byte offset
+         !byte $11        ; byte offset
          !byte $11        ; length
          !byte $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20
          !byte $20
@@ -1250,7 +1250,7 @@ patch_wizardry_utils2
          !byte $01        ; disk
          !byte $21        ; track
          !byte $0E        ; sector
-         !byte $AB        ; byte offset
+         !byte $37        ; byte offset
          !byte $1B        ; length
          !byte $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20
          !byte $20, $20, $20, $20, $20, $20, $20, $20, $20, $20, $20
@@ -1260,7 +1260,7 @@ patch_wizardry_quit
          !byte $01        ; disk
          !byte $12        ; track
          !byte $04        ; sector
-         !byte $26        ; byte offset
+         !byte $7A        ; byte offset
          !byte $02        ; length
          !byte $D2, $FF
 
